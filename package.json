@@ -1,8 +1,8 @@
 {
   "name": "sboljs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "BSD-licensed implementation of the [Synthetic Biology Open Language](http://sbolstandard.org) (SBOL) in JavaScript.",
+  "main": "lib/SBOLDocument.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,20 @@
     "extend": "^3.0.0",
     "json-stringify-safe": "^5.0.1",
     "rdf-ext": "^0.2.6",
+    "urijs": "^1.16.1",
     "xml": "^1.0.0"
-  }
+  },
+  "contributors": [
+    {
+      "name": "James Alastair McLaughlin",
+      "email": "j.a.mclaughlin@ncl.ac.uk"
+    }
+  ],
+  "gitHead": "c26bef906c9d91f2c0b4022a0768fba2f9a2c806",
+  "readme": "\n\nBSD-licensed implementation of the [Synthetic Biology Open Language](http://sbolstandard.org) (SBOL) in JavaScript.\n\nRequires a JavaScript environment with ES6 class support (e.g. recent versions of node, Chrome, ...)\n\nFeatures:\n\n* Read generic RDF, XML\n* Serialize SBOL XML, JSON\n* Build SBOL documents programatically\n\n\n\n\n\n\n",
+  "readmeFilename": "README.md",
+  "_id": "sboljs@1.0.0",
+  "_shasum": "b9d34f919aa7ad3001e5bbbb7012103ab5d2adf7",
+  "_from": "git+https://github.com/ICO2S/sboljs.git",
+  "_resolved": "git+https://github.com/ICO2S/sboljs.git#c26bef906c9d91f2c0b4022a0768fba2f9a2c806"
 }
