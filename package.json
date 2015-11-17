@@ -11,7 +11,8 @@
   "dependencies": {
     "extend": "^3.0.0",
     "json-stringify-safe": "^5.0.1",
-    "rdf-ext": "^0.2.6",
+    "rdf-ext": "https://github.com/rdf-ext/rdf-ext",
+    "rdf-parser-rdfxml": "^0.3.0-rc1",
     "urijs": "^1.16.1",
     "xml": "^1.0.0"
   },
@@ -25,7 +26,7 @@
   "readme": "\n\nBSD-licensed implementation of the [Synthetic Biology Open Language](http://sbolstandard.org) (SBOL) in JavaScript.\n\nRequires a JavaScript environment with ES6 class support (e.g. recent versions of node, Chrome, ...)\n\nFeatures:\n\n* Read generic RDF, XML\n* Serialize SBOL XML, JSON\n* Build SBOL documents programatically\n\n\n\n\n\n\n",
   "readmeFilename": "README.md",
   "_id": "sboljs@1.0.0",
-  "_shasum": "b9d34f919aa7ad3001e5bbbb7012103ab5d2adf7",
+  "_shasum": "3ceeee72e0199b225290a4cfe96d5436a57ae7c6",
   "_from": "git+https://github.com/ICO2S/sboljs.git",
-  "_resolved": "git+https://github.com/ICO2S/sboljs.git#c26bef906c9d91f2c0b4022a0768fba2f9a2c806"
+  "_resolved": "git+https://github.com/ICO2S/sboljs.git#25a930e3cc7b2274b07738cbf778c469d5a36947"
 }
