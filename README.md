@@ -22,7 +22,11 @@ Usage
 
     SBOLDocument.loadRDFFile('foo.xml', function(err, doc) {
 
-        console.log(doc.componentDefinitions);
+        doc.componentDefinitions.forEach(function(componentDefinition) {
+
+            console.log(componentDefinition.name)
+
+        })
 
     })
 
