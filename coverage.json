@@ -1,0 +1,135 @@
+{
+  "coverage": "89.07%",
+  "expectCount": 183,
+  "actualCount": 163,
+  "files": {
+    "lib_docs/Collection.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        39
+      ]
+    },
+    "lib_docs/Component.js": {
+      "expectCount": 7,
+      "actualCount": 6,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/ComponentDefinition.js": {
+      "expectCount": 15,
+      "actualCount": 14,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/Cut.js": {
+      "expectCount": 6,
+      "actualCount": 5,
+      "undocumentLines": [
+        43
+      ]
+    },
+    "lib_docs/FunctionalComponent.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        45
+      ]
+    },
+    "lib_docs/GenericLocation.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/Identified.js": {
+      "expectCount": 20,
+      "actualCount": 19,
+      "undocumentLines": [
+        40
+      ]
+    },
+    "lib_docs/Interaction.js": {
+      "expectCount": 7,
+      "actualCount": 6,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/MapsTo.js": {
+      "expectCount": 9,
+      "actualCount": 8,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/Model.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/Module.js": {
+      "expectCount": 7,
+      "actualCount": 6,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/ModuleDefinition.js": {
+      "expectCount": 11,
+      "actualCount": 10,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/Participation.js": {
+      "expectCount": 7,
+      "actualCount": 6,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/Range.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/SBOLDocument.js": {
+      "expectCount": 41,
+      "actualCount": 39,
+      "undocumentLines": [
+        55,
+        467
+      ]
+    },
+    "lib_docs/Sequence.js": {
+      "expectCount": 6,
+      "actualCount": 5,
+      "undocumentLines": [
+        41
+      ]
+    },
+    "lib_docs/SequenceAnnotation.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        42
+      ]
+    },
+    "lib_docs/SequenceConstraint.js": {
+      "expectCount": 9,
+      "actualCount": 7,
+      "undocumentLines": [
+        41,
+        104
+      ]
+    }
+  }
+}
