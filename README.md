@@ -10,6 +10,23 @@ Features:
 * Serialize SBOL XML, JSON
 * Build SBOL documents programatically
 
+Installation
+------------
+
+    npm install sboljs
+
+Usage
+-----
+
+    var SBOLDocument = require('sboljs')
+
+    SBOLDocument.loadRDFFile('foo.xml', function(err, doc) {
+
+        console.log(doc.componentDefinitions);
+
+    })
+
+
 [Documentation](http://ICO2S.github.io/sboljs)
 
 
