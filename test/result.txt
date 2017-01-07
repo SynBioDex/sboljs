@@ -1,32 +1,45 @@
 SBOL2/AnnotationOutput.rdf
 ComponentDefinition http://partsregistry.org/cd/BBa_J23119 differ.
-GenericTopLevel http://parts.igem.org/cgi/partsdb/part_info.cgi?part_name=BBa_J23119 not found in originalFile
+GenericTopLevel http://parts.igem.org/cgi/partsdb/part_info.cgi?part_name=BBa_J23119 not found in main file
 Validation successful, no errors.
+
+SBOL2/sampleToggleSwitch.rdf
+ComponentDefinition http://www.async.ece.utah.edu/pLactetR/1/0 not found in comparison file
+ComponentDefinition http://www.async.ece.utah.edu/ptetlacI/1/0 not found in comparison file
+sbol-10519: The components property of a ComponentDefinition is OPTIONAL and MAY contain a set of Component objects.
+Reference: SBOL Version 2.1.0 Section 7.7 on page 22
+: http://www.async.ece.utah.edu/pLactetR/1/0
+
+sbol-10519: The components property of a ComponentDefinition is OPTIONAL and MAY contain a set of Component objects.
+Reference: SBOL Version 2.1.0 Section 7.7 on page 22
+: http://www.async.ece.utah.edu/ptetlacI/1/0
+
+Validation failed.
 
 SBOL2/sequence1.rdf
 ComponentDefinition http://www.async.ece.utah.edu/U49845/1 differ.
-GenericTopLevel http://www.async.ece.utah.edu/U49845/reference0 not found in originalFile
-GenericTopLevel http://www.async.ece.utah.edu/U49845/reference1 not found in originalFile
+GenericTopLevel http://www.async.ece.utah.edu/U49845/reference1 not found in main file
+GenericTopLevel http://www.async.ece.utah.edu/U49845/reference0 not found in main file
 Validation successful, no errors.
 
 SBOL2/sequence2.rdf
 ComponentDefinition http://www.async.ece.utah.edu/AF165912/1 differ.
-GenericTopLevel http://www.async.ece.utah.edu/AF165912/reference0 not found in originalFile
-GenericTopLevel http://www.async.ece.utah.edu/AF165912/reference1 not found in originalFile
+GenericTopLevel http://www.async.ece.utah.edu/AF165912/reference0 not found in main file
+GenericTopLevel http://www.async.ece.utah.edu/AF165912/reference1 not found in main file
 Validation successful, no errors.
 
 SBOL2/sequence3.rdf
 ComponentDefinition http://www.async.ece.utah.edu/AF090832/1 differ.
-GenericTopLevel http://www.async.ece.utah.edu/AF090832/reference1 not found in originalFile
-GenericTopLevel http://www.async.ece.utah.edu/AF090832/reference0 not found in originalFile
+GenericTopLevel http://www.async.ece.utah.edu/AF090832/reference1 not found in main file
+GenericTopLevel http://www.async.ece.utah.edu/AF090832/reference0 not found in main file
 Validation successful, no errors.
 
 SBOL2/sequence4.rdf
-ComponentDefinition http://www.async.ece.utah.edu/U49845/1 differ.
 ComponentDefinition http://www.async.ece.utah.edu/L00727/1 differ.
-GenericTopLevel http://www.async.ece.utah.edu/U49845/reference3 not found in originalFile
-GenericTopLevel http://www.async.ece.utah.edu/L00727/reference1 not found in originalFile
-GenericTopLevel http://www.async.ece.utah.edu/U49845/reference2 not found in originalFile
-GenericTopLevel http://www.async.ece.utah.edu/L00727/reference0 not found in originalFile
+ComponentDefinition http://www.async.ece.utah.edu/U49845/1 differ.
+GenericTopLevel http://www.async.ece.utah.edu/U49845/reference3 not found in main file
+GenericTopLevel http://www.async.ece.utah.edu/U49845/reference2 not found in main file
+GenericTopLevel http://www.async.ece.utah.edu/L00727/reference0 not found in main file
+GenericTopLevel http://www.async.ece.utah.edu/L00727/reference1 not found in main file
 Validation successful, no errors.
 
