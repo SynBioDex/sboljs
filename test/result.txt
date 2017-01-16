@@ -1,8 +1,219 @@
 SBOL2/AnnotationOutput.rdf
-ComponentDefinition http://partsregistry.org/cd/BBa_J23119 differ.
+Validation successful, no errors.
+
+SBOL2/BBa_I0462.rdf
+Validation successful, no errors.
+
+SBOL2/BBa_T9002.rdf
+Validation successful, no errors.
+
+SBOL2/CollectionOutput.rdf
+Validation successful, no errors.
+
+SBOL2/ComponentDefinitionOutput.rdf
+Validation successful, no errors.
+
+SBOL2/CreateAndRemoveCollections.rdf
+Validation successful, no errors.
+
+SBOL2/CreateAndRemoveComponentDefinition.rdf
+Validation successful, no errors.
+
+SBOL2/CreateAndRemoveGenericTopLevel.rdf
+Validation successful, no errors.
+
+SBOL2/CreateAndRemoveModel.rdf
+Validation successful, no errors.
+
+SBOL2/CreateAndRemoveModuleDefinition.rdf
+Validation successful, no errors.
+
+SBOL2/CutExample.rdf
+Validation successful, no errors.
+
+SBOL2/GenericTopLevelOutput.rdf
+Validation successful, no errors.
+
+SBOL2/ModelOutput.rdf
+Validation successful, no errors.
+
+SBOL2/ModuleDefinitionOutput.rdf
+Validation successful, no errors.
+
+SBOL2/RepressionModel.rdf
+Validation successful, no errors.
+
+SBOL2/SBOLDocumentOutput.rdf
+Validation successful, no errors.
+
+SBOL2/SequenceConstraintOutput.rdf
+Validation successful, no errors.
+
+SBOL2/SequenceOutput.rdf
+Validation successful, no errors.
+
+SBOL2/SimpleComponentDefinitionExample.rdf
+Validation successful, no errors.
+
+SBOL2/SimpleModuleDefinition.rdf
+Validation successful, no errors.
+
+SBOL2/igem1.rdf
+Validation successful, no errors.
+
+SBOL2/igem2.rdf
+Validation successful, no errors.
+
+SBOL2/igem3.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_All.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Aspergillus_nidulans.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Bacillus_subtilis.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Drosophila_melanogaster.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Escherichia_Coli.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Gram-negative_bacteria.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Insect_Cells.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Kluyveromyces_lactis.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Mammalian_Cells.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Pichia_pastoris.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Plant_Cells.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Saccharomyces_cerevisiae.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Schizosaccharomyces_pombe.rdf
+Validation successful, no errors.
+
+SBOL2/labhost_Unspecified.rdf
+Validation successful, no errors.
+
+SBOL2/memberAnnotations.rdf
+Validation successful, no errors.
+
+SBOL2/multipleCollections_no_Members.rdf
+Validation successful, no errors.
+
+SBOL2/multipleGenericTopLevel.rdf
+Validation successful, no errors.
+
+SBOL2/multipleSequences.rdf
+Validation successful, no errors.
+
+SBOL2/namespace.rdf
+Validation successful, no errors.
+
+SBOL2/new_AnnotationOutput.rdf
+Validation successful, no errors.
+
+SBOL2/pIKE_pTAK_cassettes.rdf
+Validation successful, no errors.
+
+SBOL2/pIKE_pTAK_cassettes_2.rdf
+Validation successful, no errors.
+
+SBOL2/pIKE_pTAK_left_right_cassettes.rdf
+Validation successful, no errors.
+
+SBOL2/pIKE_pTAK_toggle_switches.rdf
+Validation successful, no errors.
+
+SBOL2/partial_pIKE_left_cassette.rdf
+Validation successful, no errors.
+
+SBOL2/partial_pIKE_right_casette.rdf
+Validation successful, no errors.
+
+SBOL2/partial_pIKE_right_cassette.rdf
+Validation successful, no errors.
+
+SBOL2/partial_pTAK_left_cassette.rdf
+Validation successful, no errors.
+
+SBOL2/partial_pTAK_right_cassette.rdf
 Validation successful, no errors.
 
 SBOL2/sampleToggleSwitch.rdf
-Collection http://www.async.ece.utah.edu/myParts/1/0 differ.
+Validation successful, no errors.
+
+SBOL2/sequence1.rdf
+Validation successful, no errors.
+
+SBOL2/sequence2.rdf
+Validation successful, no errors.
+
+SBOL2/sequence3.rdf
+Validation successful, no errors.
+
+SBOL2/sequence4.rdf
+Validation successful, no errors.
+
+SBOL2/singleCollection.rdf
+Validation successful, no errors.
+
+SBOL2/singleCompDef_withSeq.rdf
+Validation successful, no errors.
+
+SBOL2/singleComponentDefinition.rdf
+Validation successful, no errors.
+
+SBOL2/singleFunctionalComponent.rdf
+Validation successful, no errors.
+
+SBOL2/singleGenericTopLevel.rdf
+Validation successful, no errors.
+
+SBOL2/singleModel.rdf
+Validation successful, no errors.
+
+SBOL2/singleModuleDefinition.rdf
+Validation successful, no errors.
+
+SBOL2/singleSequence.rdf
+Validation successful, no errors.
+
+SBOL2/test_Collection_remove.rdf
+Validation successful, no errors.
+
+SBOL2/test_ComponentDefinition_remove.rdf
+Validation successful, no errors.
+
+SBOL2/test_GenericTopLevel_remove.rdf
+Validation successful, no errors.
+
+SBOL2/test_Methods.rdf
+Validation successful, no errors.
+
+SBOL2/test_Model_remove.rdf
+Validation successful, no errors.
+
+SBOL2/test_ModuleDefinition_remove.rdf
+Validation successful, no errors.
+
+SBOL2/test_Sequence_remove.rdf
+Validation successful, no errors.
+
+SBOL2/toggle.rdf
 Validation successful, no errors.
 
