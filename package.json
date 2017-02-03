@@ -1,6 +1,6 @@
 {
   "name": "sboljs",
-  "version": "1.7.8",
+  "version": "1.7.9",
   "description": "BSD-licensed implementation of the [Synthetic Biology Open Language](http://sbolstandard.org) (SBOL) in JavaScript.",
   "main": "lib/SBOLDocument.js",
   "scripts": {
