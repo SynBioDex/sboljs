@@ -1,0 +1,25 @@
+{
+    "name": "sboljs",
+    "version": "1.8.0",
+    "dependencies": {
+        "rdf-parser-rdfxml": {
+            "version": "0.3.1",
+            "from": "rdf-parser-rdfxml@^0.3.1",
+            "resolved": "git://github.com/rdf-ext/rdf-parser-rdfxml.git#90b25537b28d574c15f20532a6bd24e8f3aed9de",
+            "dependencies": {
+                "rdf-parser-dom": {
+                    "version": "0.3.0",
+                    "from": "rdf-parser-dom@^0.3.0",
+                    "resolved": "git://github.com/rdf-ext/rdf-parser-dom.git#db08624870bb4f79ad603ad82e25855aa5f6ada1",
+                    "dependencies": {
+                        "rdf-parser-abstract": {
+                            "version": "0.3.0",
+                            "from": "rdf-parser-abstract@^0.3.0",
+                            "resolved": "git://github.com/udp/rdf-parser-abstract.git#65c87088feb862ae26728a11afc50e05165b40ce"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
