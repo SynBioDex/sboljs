@@ -1,6 +1,6 @@
 {
   "name": "sboljs",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "dependencies": {
     "buffer-shims": {
       "version": "1.0.0",
