@@ -10,12 +10,12 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "extend": "^3.0.0",
-    "json-stringify-safe": "^5.0.1",
+    "json-stringify-safe": "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz",
     "rdf-ext": "git+https://github.com/rdf-ext/rdf-ext",
     "rdf-graph-array": "git+https://github.com/udp/rdf-graph-array.git",
     "rdf-parser-rdfxml": "^0.3.0-rc1",
-    "urijs": "^1.16.1",
-    "xml": "^1.0.0"
+    "urijs": "https://registry.npmjs.org/urijs/-/urijs-1.18.7.tgz",
+    "xml": "https://registry.npmjs.org/xml/-/xml-1.0.1.tgz"
   },
   "contributors": [
     {
