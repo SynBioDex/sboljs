@@ -60,7 +60,7 @@
     "rdf-graph-array": {
       "version": "0.3.0",
       "from": "git+https://github.com/udp/rdf-graph-array.git",
-      "resolved": "git+https://github.com/udp/rdf-graph-array.git#94d5dfdc02c035b44d494d4536cbd91aaf8b12d5"
+      "resolved": "git+https://github.com/udp/rdf-graph-array.git#34c8cd5c38d39a3388af71d78e94a23002d9c796"
     },
     "rdf-normalize": {
       "version": "0.3.0",
