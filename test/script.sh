@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for f in SBOL2/*
+for f in SBOLTestSuite/SBOL2/*
 do
   echo $f
   node ReadWriteTestlibSBOL.js $PWD/$f 
