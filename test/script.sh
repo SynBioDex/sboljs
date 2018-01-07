@@ -3,8 +3,9 @@
 for f in SBOLTestSuite/SBOL2/*
 do
   echo "Testing "$f
-  if [[ $(node ReadWriteTestlibSBOL.js $PWD/$f) != "Validation successful, no errors." ]]; then
-      echo "    Error!";
+  validation_result=$(node ReadWriteTestlibSBOL.js $PWD/$f);
+  if [[ $validation_result != "Validation successful, no errors." ]]; then
+      echo $validation_result;
       exit 1;
   else echo "   Successful!"; fi
 done
