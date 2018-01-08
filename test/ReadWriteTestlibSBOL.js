@@ -29,7 +29,7 @@ SBOLDocument.loadRDF(inputFile,(err,sbol) => {
 				  'main_file_name': 'main file',
 				  'diff_file_name': 'comparison file',
 				 },
-		      'return_file': true,
+		      'return_file': false,
 		      'main_file': inputFile,
 		      'diff_file': sbol.serializeXML({
 			  'xmlns:synbiohub': 'http://synbiohub.org#',
