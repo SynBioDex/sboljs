@@ -1,10 +1,10 @@
 {
   "name": "sboljs",
-  "version": "1.11.0",
+  "version": "1.14.0",
   "description": "BSD-licensed implementation of the [Synthetic Biology Open Language](http://sbolstandard.org) (SBOL) in JavaScript.",
   "main": "lib/SBOLDocument.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd test && bash script.sh"
   },
   "author": "James Alastair McLaughlin <j.a.mclaughlin@ncl.ac.uk>",
   "license": "BSD-2-Clause",
@@ -14,8 +14,10 @@
     "rdf-ext": "git+https://github.com/rdf-ext/rdf-ext",
     "rdf-graph-array": "git+https://github.com/udp/rdf-graph-array.git",
     "rdf-parser-rdfxml": "^0.3.0-rc1",
+    "request": "^2.83.0",
     "urijs": "https://registry.npmjs.org/urijs/-/urijs-1.18.7.tgz",
-    "xml": "https://registry.npmjs.org/xml/-/xml-1.0.1.tgz"
+    "xml": "https://registry.npmjs.org/xml/-/xml-1.0.1.tgz",
+    "xmlhttprequest": "^1.8.0"
   },
   "contributors": [
     {
