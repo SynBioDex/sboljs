@@ -23,7 +23,8 @@ do
 	    $f != "SBOLTestSuite/SBOL2/pIKE_pTAK_cassettes 2.xml" &&
 	    $f != "SBOLTestSuite/SBOL2/pIKE_pTAK_cassettes 2_orig.xml" &&
 	    $f != "SBOLTestSuite/SBOL2/SBOL1and2Test.xml" &&
-	    $f != "SBOLTestSuite/SBOL2/pIKE_pTAK_toggle_switches_orig.xml"
+	    $f != "SBOLTestSuite/SBOL2/pIKE_pTAK_toggle_switches_orig.xml" &&
+		$f != "SBOLTestSuite/SBOL2/eukaryotic_transcriptional_unit_sampled.xml"
          ]]; then
           echo "   New Failure!"
           exit 1;

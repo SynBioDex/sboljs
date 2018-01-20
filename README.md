@@ -31,7 +31,7 @@ Usage
     })
 
 
-[Documentation](http://ICO2S.github.io/sboljs)
+[Documentation](http://synbiodex.github.io/sboljs)
 
 
 
