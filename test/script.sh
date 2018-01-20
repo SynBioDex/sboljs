@@ -11,7 +11,6 @@ do
       echo "   Failure!"
       if [[ $f != "SBOLTestSuite/SBOL2/SBOL1and2Test.xml" &&
             $f != "SBOLTestSuite/SBOL2/design-build-test-learn.xml" &&
-	    $f != "SBOLTestSuite/SBOL2/implementation_example.xml" &&
 	    $f != "SBOLTestSuite/SBOL2/pIKE_pTAK_cassettes 2.xml" &&
 	    $f != "SBOLTestSuite/SBOL2/pIKE_pTAK_cassettes 2_orig.xml" &&
 	    $f != "SBOLTestSuite/SBOL2/SBOL1and2Test.xml" &&
