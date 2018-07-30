@@ -1,0 +1,104 @@
+// Chapter 3: Wrapping up
+
+
+// Define the sequence strings
+cra_u6_seq_elements = "GGTTTACCGAGCTCTTATTGGTTTTCAAACTTCATTGACTGTGCC" +
+"AAGGTCGGGCAGGAAGAGGGCCTATTTCCCATGATTCCTTCATAT" +
+"TTGCATATACGATACAAGGCTGTTAGAGAGATAATTAGAATTAAT" +
+"TTGACTGTAAACACAAAGATATTAGTACAAAATACGTGACGTAGA" +
+"AAGTAATAATTTCTTGGGTAGTTTGCAGTTTTAAAATTATGTTTT" +
+"AAAATGGACTATCATATGCTTACCGTAACTTGAAATATAGAACCG" +
+"ATCCTCCCATTGGTATATATTATAGAACCGATCCTCCCATTGGCT" +
+"TGTGGAAAGGACGAAACACCGTACCTCATCAGGAACATGTGTTTA" +
+"AGAGCTATGCTGGAAACAGCAGAAATAGCAAGTTTAAATAAGGCT" +
+"AGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTT" +
+"TTGGTGCGTTTTTATGCTTGTAGTATTGTATAATGTTTTT";
+
+grna_b_elements = "AAGGTCGGGCAGGAAGAGGGCCTATTTCCCATGATTCCTTCATAT" +
+"TTGCATATACGATACAAGGCTGTTAGAGAGATAATTAGAATTAAT" +
+"TTGACTGTAAACACAAAGATATTAGTACAAAATACGTGACGTAGA" +
+"AAGTAATAATTTCTTGGGTAGTTTGCAGTTTTAAAATTATGTTTT" +
+"AAAATGGACTATCATATGCTTACCGTAACTTGAAAGTATTTCGAT" +
+"TTCTTGGCTTTATATATCTTGTGGAAAGGACGAAACACCGTACCT" +
+"CATCAGGAACATGTGTTTAAGAGCTATGCTGGAAACAGCAGAAAT" +
+"AGCAAGTTTAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGG" +
+"CACCGAGTCGGTGCTTTTTTT";
+
+mkate_seq_elements = "TCTAAGGGCGAAGAGCTGATTAAGGAGAACATGCACATGAAGCTG" +
+"TACATGGAGGGCACCGTGAACAACCACCACTTCAAGTGCACATCC" +
+"GAGGGCGAAGGCAAGCCCTACGAGGGCACCCAGACCATGAGAATC" +
+"AAGGTGGTCGAGGGCGGCCCTCTCCCCTTCGCCTTCGACATCCTG" +
+"GCTACCAGCTTCATGTACGGCAGCAAAACCTTCATCAACCACACC" +
+"CAGGGCATCCCCGACTTCTTTAAGCAGTCCTTCCCTGAGGTAAGT" +
+"GGTCCTACCTCATCAGGAACATGTGTTTTAGAGCTAGAAATAGCA" +
+"AGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACC" +
+"GAGTCGGTGCTACTAACTCTCGAGTCTTCTTTTTTTTTTTCACAG" +
+"GGCTTCACATGGGAGAGAGTCACCACATACGAAGACGGGGGCGTG" +
+"CTGACCGCTACCCAGGACACCAGCCTCCAGGACGGCTGCCTCATC" +
+"TACAACGTCAAGATCAGAGGGGTGAACTTCCCATCCAACGGCCCT" +
+"GTGATGCAGAAGAAAACACTCGGCTGGGAGGCCTCCACCGAGATG" +
+"CTGTACCCCGCTGACGGCGGCCTGGAAGGCAGAAGCGACATGGCC" +
+"CTGAAGCTCGTGGGCGGGGGCCACCTGATCTGCAACTTGAAGACC" +
+"ACATACAGATCCAAGAAACCCGCTAAGAACCTCAAGATGCCCGGC" +
+"GTCTACTATGTGGACAGAAGACTGGAAAGAATCAAGGAGGCCGAC" +
+"AAAGAGACCTACGTCGAGCAGCACGAGGTGGCTGTGGCCAGATAC" +
+"TGCG";
+
+
+crp_b_seq_elements = "GCTCCGAATTTCTCGACAGATCTCATGTGATTACGCCAAGCTACG" +
+"GGCGGAGTACTGTCCTCCGAGCGGAGTACTGTCCTCCGAGCGGAG" +
+"TACTGTCCTCCGAGCGGAGTACTGTCCTCCGAGCGGAGTTCTGTC" +
+"CTCCGAGCGGAGACTCTAGATACCTCATCAGGAACATGTTGGAAT" +
+"TCTAGGCGTGTACGGTGGGAGGCCTATATAAGCAGAGCTCGTTTA" +
+"GTGAACCGTCAGATCGCCTCGAGTACCTCATCAGGAACATGTTGG" +
+"ATCCAATTCGACC";
+
+// Create the sequences
+cra_u6_seq_sequence = document.sequence(createUri(uriPrefix, "CRa_U6_seq", version));
+grna_b_seq_sequence = document.sequence(createUri(uriPrefix, "gRNA_b_seq", version))
+mkate_seq_sequence = document.sequence(createUri(uriPrefix, "mKate_seq", version));
+crp_b_seq_sequence = document.sequence(createUri(uriPrefix, "CRP_b_seq", version));
+
+// Set the sequence display IDs
+cra_u6_seq_sequence.displayId = "CRa_U6_seq";
+grna_b_seq_sequence.displayId = "gRNA_b_seq";
+mkate_seq_sequence.displayId = "mKate_seq";
+crp_b_seq_sequence.displayId = "CRP_b_seq";
+
+// Set the sequence persistentIdentities
+cra_u6_seq_sequence.persistentIdentity = createUri(uriPrefix, "CRa_U6_seq");
+grna_b_seq_sequence.persistentIdentity = createUri(uriPrefix, "gRNA_b_seq");
+mkate_seq_sequence.persistentIdentity =  createUri(uriPrefix, "mKate_seq");
+crp_b_seq_sequence.persistentIdentity = createUri(uriPrefix, "CRP_b_seq");
+
+
+// Set the sequence display IDs
+cra_u6_seq_sequence.version = version;
+grna_b_seq_sequence.version = version;
+mkate_seq_sequence.version = version;
+crp_b_seq_sequence.version = version;
+
+// Add the actual sequence element to the Sequence objects
+cra_u6_seq_sequence.elements = cra_u6_seq_elements;
+grna_b_seq_sequence.elements = grna_b_elements;
+mkate_seq_sequence.elements = mkate_seq_elements;
+crp_b_seq_sequence.elements = crp_b_seq_elements;
+
+// Create ComponentDefinition for CRP_b promoter and add its Sequence object
+crp_b_cd = document.componentDefinition(createUri(uriPrefix, "CRP_b", version));
+crp_b_cd.addSequence(crp_b_seq_sequence);
+
+// Create ComponentDefintiion for EYFP coding sequence
+eyfp_cd = document.componentDefinition(createUri(uriPrefix, "EYFP", version));
+
+// Create ComponentDefinition for EYFP gene
+eyfp_gene_cd = document.componentDefinition(createUri(uriPrefix, "EYFP_gene",version));
+
+crp_b_cd = document.componentDefinition(createUri(uriPrefix, "CRP_b", version));
+
+eyfp_cds_cd = document.componentDefinition(createUri(uriPrefix, "EYFP_cds",version));
+
+eyfp_gene_constraint_sequence_constraint = document.sequenceConstraint(createUri(uriPrefix, "EYFP_gene/EYFP_gene_constraint", version));
+
+// Create ModuleDefinition for CRISPR Repression
+crpb_circuit = document.moduleDefinition(createUri(uriPrefix, "CRPb_characterization_circuit", version));

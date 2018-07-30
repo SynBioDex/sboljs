@@ -1,0 +1,16 @@
+/*  Welcome to the SBOL-JS Introductory Tutorial!
+
+  This interface is for learning the basics of how to use
+  the Javascript library for SBOL: <a href="https://github.com/SynBioDex/sboljs">SBOL-JS</a>.
+
+  As a test case, the chapters on this page will contain some of the SBOL-JS code
+  that is needed to build the CRPb Characterisation Circuit shown below.
+  To fully complete the circuit, it is highly recommended you find
+  more detailed instructions <a href="http://sbolstandard.org/wp-content/uploads/2015/01/sboljs_tutorial.pdf">here</a>.
+
+  <img id='crisprimg' src="crispr.png">
+
+  Simply click on Chapter 1 to start with, and then
+  use the terminal on the right to follow instructions!
+
+*/

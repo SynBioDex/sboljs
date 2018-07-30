@@ -1,0 +1,29 @@
+{
+  "name": "sboljs-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "browserify": "^15.2.0",
+    "highlight.js": "^9.12.0",
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "json-stringify-safe": "^5.0.1",
+    "sboljs": "^1.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisAta/sboljs-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisAta/sboljs-tutorial/issues"
+  },
+  "homepage": "https://github.com/chrisAta/sboljs-tutorial#readme"
+}

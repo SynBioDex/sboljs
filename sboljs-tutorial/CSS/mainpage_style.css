@@ -1,0 +1,287 @@
+#header{
+
+  /*margin: auto;
+  width: 50%;*/
+  font-size: 26;
+  text-align: center;
+
+}
+
+#SBOLlogo{
+
+  vertical-align: middle;
+  height:15%;
+  width:15%;
+
+}
+
+#chapterdiv{
+
+  text-align: center;
+
+
+}
+#main{
+
+  display: -webkit-inline-box;
+  padding: 3%;
+}
+
+#toggleimg{
+
+  font-size: 80%;
+  color: white;
+
+}
+
+.terminal-buts{
+
+  font-size: 80%;
+}
+
+
+/*.CodeMirror-placeholder{
+
+  color: rgba(237, 141, 15, 1) !important;
+
+}*/
+
+.CodeMirror-activeline-background{
+
+  background: rgba(88, 78, 75, 0.72) !important;
+
+}
+
+
+.chap {
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    outline:none;
+    border: none;
+    background-color: Transparent;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    cursor:pointer;
+    display: inline;
+    font-size: 100%;
+}
+
+.chap:hover {
+    color: #818181;
+}
+
+
+#guide{
+
+  max-width: 50%;
+  width:40%;
+  height: inherit;
+  max-height: 80%;
+  display: inline-block;
+  border:1px solid #8c8b8b
+  /*border-style:groove;*/
+}
+
+
+#table{
+
+  float:right;
+  height: 65%;
+  max-height:65%;
+
+}
+
+#crisprimg{
+
+  width: 70% !important;
+
+}
+
+#JSprogram{
+
+  width:100%;
+  font-family: monospace;
+  font-size: 16;
+  font-weight: bold;
+
+}
+
+#JSoutput{
+
+  height:5in;
+  width:100%;
+  font-family: monospace;
+  font-size: 16;
+  font-weight: bold;
+
+}
+
+#hovercrisprimg{
+
+  position: absolute;
+  z-index: 7;
+  display: none;
+  right: 4%;
+  top: 30%;
+}
+
+.pure-button{
+  background-color: transparent !important;
+  transition: 0.3s;
+
+
+}
+
+.pure-button:hover{
+  background: transparent !important;
+
+  color: #818181 !important;
+
+}
+
+#resetDoc{
+  float: right;
+
+}
+
+#fullscreen{
+  padding-left: 1%;
+  padding-top: 1%;
+  color: black;
+
+}
+
+hr{
+  border-top: 1px solid #8c8b8b;
+
+}
+
+tr {
+
+  /*height: 2%;*/
+  border:1px solid #8c8b8b
+
+}
+
+td {
+  background:white;
+  vertical-align:top;
+  border:1px solid #8c8b8b;
+  border-style:groove;
+
+  /*padding:2px 10px;*/
+
+}
+
+.program{
+
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+
+}
+
+pre {
+  margin:0
+}
+table {
+  border-collapse:collapse;
+  table-layout:fixed;
+  /*height: 80%;*/
+  max-height:80%;
+  /*overflow: scroll;*/
+}
+body {
+  background:rgb(78, 81, 83);
+  font-family: Helvetica;
+  color: white;
+}
+textarea {
+  font-family:Lucida console
+}
+
+a{
+  color : cyan;
+}
+/*
+.sidenav {
+    height: 5%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 25%;
+    left: 10%;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}*/
+
+/*.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}*/
+
+
+
+
+
+.hljs{
+
+  max-height: 80%;
+  background: #d9d9d9;
+  padding: 0;
+
+}
+/*
+.cm-s-default .cm-def{
+
+  color: black;
+}
+
+.cm-variable{
+
+  color: black !important;
+}*/
+
+
+#guide_chap2{
+
+  display: none;
+
+}
+
+.CodeMirror{
+
+  /*background: #d9d9d9;*/
+  height: 100%;
+  font-size: 120%;
+  /*max-height: 100%;*/
+  overflow: scroll;
+
+}

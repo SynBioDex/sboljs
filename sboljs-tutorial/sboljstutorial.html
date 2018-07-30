@@ -1,0 +1,79 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="codemirror-5.33.0/lib/codemirror.css">
+<link rel="stylesheet" href="codemirror-5.33.0/theme/monokai.css">
+<link rel="stylesheet" href="CSS/mainpage_style.css">
+<link rel="stylesheet" href="CSS/highlight_style.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SBOL-JS Introductory Tutorial</title>
+</head>
+<body>
+
+<div id="header">
+
+
+  <img id='SBOLlogo' src="SBOLlogowhite.svg">
+  <span>SBOL-JS Introductory Tutorial</span>
+
+  <div id='chapterdiv'>
+
+  <button id='overview' class="chap">Overview</button>
+  <button id='chap1' class="chap">Chapter 1</button>
+  <button id='chap2' class="chap">Chapter 2</button>
+  <button id='chap3' class="chap">Chapter 3</button>
+
+  </div>
+
+</div>
+
+<div id='main'>
+
+<div id='hovercrisprimg' draggable="true">
+<img src="crispr.png">
+</div>
+
+<div id ="guide">
+
+<pre><code id="guide_chap" class="js hljs javascript">/*  Welcome to the SBOL-JS Introductory Tutorial!
+
+  This interface is for learning the basics of how to use
+  the Javascript library for SBOL: <a href="https://github.com/SynBioDex/sboljs">SBOL-JS</a>.
+
+  As a test case, the chapters on this page will contain some of the SBOL-JS code
+  that is needed to build the CRPb Characterisation Circuit shown below.
+  To fully complete the circuit, it is highly recommended you find
+  more detailed instructions <a href="http://sbolstandard.org/wp-content/uploads/2015/01/sboljs_tutorial.pdf">here</a>.
+
+  <img id='crisprimg' src="crispr.png">
+
+  Simply click on Chapter 1 to start with, and then
+  use the terminal on the right to follow instructions!
+
+*/
+</code></pre>
+
+</div>
+
+<table id="table" width="55%">
+<tbody><tr><td id="fullscreen">
+
+</td><td>
+<button id="run" class="pure-button"><i class="fa fa-file-code-o" aria-hidden="true"></i> Serialize into XML</button>
+<button id ="resetDoc" class="terminal-buts pure-button"><i class="fa fa-window-restore" aria-hidden="true"></i> Reset Document </button>
+</td></tr>
+<tr><td class="program">
+
+<textarea id="JSprogram" placeholder="Write SBOL-JS instructions in this Javascript terminal...">
+</textarea>
+</td>
+<td class="program" width="50%" style="padding:1px">
+<textarea id="JSoutput" style=></textarea></td>
+</tr>
+</tbody></table>
+</div>
+
+<script src="bundle.js"></script>
+</body></html>

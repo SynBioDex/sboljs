@@ -1,0 +1,103 @@
+// Chapter 2: Specifying interactions
+
+// Add Functional Components
+cas9_generic_fc = document.functionalComponent(createUri(uriPrefix, "CRISPR_Template/cas9_generic", version));
+grna_generic_fc = document.functionalComponent(createUri(uriPrefix, "CRISPR_Template/gRNA_generic", version));
+cas9_grna_complex_fc = document.functionalComponent(createUri(uriPrefix, "CRISPR_Template/cas9_gRNA_complex", version));
+target_gene_fc = document.functionalComponent(createUri(uriPrefix, "CRISPR_Template/target_gene", version));
+target_fc = document.functionalComponent(createUri(uriPrefix, "CRISPR_Template/target", version));
+
+// Add display IDs to functional components
+cas9_generic_fc.displayId = "cas9_generic";
+grna_generic_fc.displayId = "gRNA_generic";
+cas9_grna_complex_fc.displayId = "cas9_gRNA_complex";
+target_gene_fc.displayId = "target_gene";
+target_fc.displayId = "target";
+
+// Add persistent identities to functional components
+cas9_generic_fc.persistentIdentity = createUri(uriPrefix, "CRISPR_Template/cas9_generic");
+grna_generic_fc.persistentIdentity = createUri(uriPrefix, "CRISPR_Template/gRNA_generic");
+cas9_grna_complex_fc.persistentIdentity = createUri(uriPrefix, "CRISPR_Template/cas9_gRNA_complex");
+target_gene_fc.persistentIdentity = createUri(uriPrefix, "CRISPR_Template/target_gene");
+target_fc.persistentIdentity = createUri(uriPrefix, "CRISPR_Template/target");
+
+// Add versions to functional components
+cas9_generic_fc.version = version;
+grna_generic_fc.version = version;
+cas9_grna_complex_fc.version = version;
+target_gene_fc.version = version;
+target_fc.version = version;
+
+// Point functional components to their component definitions
+cas9_generic_fc.definition = cas9_generic_cd.persistentIdentity;
+grna_generic_fc.definition = grna_generic_cd.persistentIdentity;
+cas9_grna_complex_fc.definition = cas9_grna_complex_cd.persistentIdentity;
+target_gene_fc.definition = target_gene_cd.persistentIdentity;
+target_fc.definition = target_cd.persistentIdentity;
+
+// Add functional components to module definition for CRISPR template
+crispr_template_module.addFunctionalComponent(cas9_generic_fc);
+crispr_template_module.addFunctionalComponent(grna_generic_fc);
+crispr_template_module.addFunctionalComponent(cas9_grna_complex_fc);
+crispr_template_module.addFunctionalComponent(target_gene_fc);
+crispr_template_module.addFunctionalComponent(target_fc);
+
+// Create complex formation reaction
+cas9complex_formation_interaction = document.interaction(createUri(uriPrefix,"CRISPR_Template/cas9_complex_formation", version));
+
+// Add complex formation reaction display ID
+cas9complex_formation_interaction.displayId = "cas9_complex_formation";
+
+// Add complex formation reaction persistent identity
+cas9complex_formation_interaction.persistentIdentity = createUri(uriPrefix, "CRISPR_Template/cas9_complex_formation");
+
+// Add complex formation version
+cas9complex_formation_interaction.version = version;
+
+// Add type to complex formation interaction
+cas9complex_formation_interaction.addType(sbo.NON_COVALENT_BINDING);
+
+crispr_template_module.addInteraction(cas9complex_formation_interaction)
+
+// Create complex formation interaction participations
+cas9_generic_participation = document.participation(createUri(uriPrefix, "CRISPR_Template/cas9_complex_formation/cas9_generic", version))
+grna_generic_participation = document.participation(createUri(uriPrefix, "CRISPR_Template/cas9_complex_formation/gRNA_generic", version))
+cas9_grna_complex_participation = document.participation(createUri(uriPrefix,"CRISPR_Template/cas9_complex_formation/cas9_gRNA_complex", version))
+
+// Add complex formation interaction participations display IDs
+cas9_generic_participation.displayId = "cas9_generic";
+grna_generic_participation.displayId = "gRNA_generic";
+cas9_grna_complex_participation.displayId = "cas9_gRNA_complex";
+
+// Add complex formation interaction participations persistent identity
+cas9_generic_participation.persistentIdentity = createUri(uriPrefix, "CRISPR_Template/cas9_complex_formation/cas9_generic")
+grna_generic_participation.persistentIdentity = createUri(uriPrefix, "CRISPR_Template/cas9_complex_formation/gRNA_generic")
+cas9_grna_complex_participation.persistentIdentity = createUri(uriPrefix, "CRISPR_Template/cas9_complex_formation/cas9_gRNA_complex")
+
+// Add complex formation interaction participations version
+cas9_generic_participation.version = version;
+grna_generic_participation.version = version;
+cas9_grna_complex_participation.version = version;
+
+// Point complex formation interaction participants to their functional components
+cas9_generic_participation.participant = cas9_generic_fc;
+grna_generic_participation.participant = grna_generic_fc;
+cas9_grna_complex_participation.participant = cas9_grna_complex_fc;
+
+// Add participant roles for complex formation
+cas9_generic_participation.addRole(sbo.REACTANT);
+grna_generic_participation.addRole(sbo.REACTANT);
+cas9_grna_complex_participation.addRole(sbo.PRODUCT);
+
+// Add participants to complex formation interaction
+cas9complex_formation_interaction.addParticipation(cas9_generic_participation);
+cas9complex_formation_interaction.addParticipation(grna_generic_participation);
+cas9complex_formation_interaction.addParticipation(cas9_grna_complex_participation);
+
+// Create target production interaction
+eyfp_production_interaction = document.interaction(createUri(uriPrefix, "CRISPR_Template/target_production", version))
+
+// Add target production interation display ID
+eyfp_production_interaction.displayId = "target_production";
+
+crispr_template_module.addInteraction(eyfp_production_interaction)
