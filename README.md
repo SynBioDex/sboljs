@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/SynBioDex/sboljs.svg?branch=master)](https://travis-ci.org/SynBioDex/sboljs)
 
 
 BSD-licensed implementation of the [Synthetic Biology Open Language](http://sbolstandard.org) (SBOL) in JavaScript.
