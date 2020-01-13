@@ -16,7 +16,7 @@ SBOLDocument.loadRDF(inputFile,(err,sbol) => {
     } else {
 	request(
 	    { method: 'POST',
-	      uri: 'http://www.async.ece.utah.edu/validate/',
+	      uri: 'https://validator.sbolstandard.org/',
 	      'content-type': 'application/json',
 	      json: { 'options': {'language' : 'SBOL2',
 				  'test_equality': true,
