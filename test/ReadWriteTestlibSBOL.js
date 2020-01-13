@@ -16,7 +16,7 @@ SBOLDocument.loadRDF(inputFile,(err,sbol) => {
     } else {
 	request(
 	    { method: 'POST',
-	      uri: 'https://validator.sbolstandard.org/',
+	      uri: 'https://validator.sbolstandard.org/validate/',
 	      'content-type': 'application/json',
 	      json: { 'options': {'language' : 'SBOL2',
 				  'test_equality': true,
