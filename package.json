@@ -1,9 +1,12 @@
 {
   "name": "sboljs",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "description": "BSD-licensed implementation of the [Synthetic Biology Open Language](http://sbolstandard.org) (SBOL) in JavaScript.",
-  "main": "dist/main.js",
-  "files": ["dist", "README.md"],
+  "main": "lib/SBOLDocument.js",
+  "files": [
+    "lib",
+    "README.md"
+  ],
   "scripts": {
     "test": "cd test && bash script.sh",
     "build": "webpack --mode=production"
@@ -28,12 +31,7 @@
     }
   ],
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "babel-loader": "^8.2.3",
     "cheerio": "^0.19.0",
-    "glob": "^6.0.1",
-    "path": "^0.12.7",
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1"
+    "glob": "^6.0.1"
   }
 }
