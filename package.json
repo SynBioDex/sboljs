@@ -14,7 +14,7 @@
   "author": "James Alastair McLaughlin <j.a.mclaughlin@ncl.ac.uk>",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "extend": "^3.0.0",
+    "extend": "^3.0.2",
     "json-stringify-safe": "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz",
     "rdf-ext-sboljs": "^0.3.0",
     "rdf-graph-array-sboljs": "^0.3.1",
@@ -31,7 +31,7 @@
     }
   ],
   "devDependencies": {
-    "cheerio": "^0.19.0",
-    "glob": "^6.0.1"
+    "cheerio": "^1.0.0-rc.10",
+    "glob": "^8.0.1"
   }
 }
