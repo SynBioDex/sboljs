@@ -1,3 +1,7 @@
+# **This library only supports SBOL2. For a JavaScript/TypeScript library with support for a wider range of SBOL versions including SBOL1 and SBOL3, see [sboljs3](https://github.com/synbiodex/sboljs3).**
+
+--
+
 [![Build Status](https://travis-ci.org/SynBioDex/sboljs.svg?branch=master)](https://travis-ci.org/SynBioDex/sboljs)
 
 
