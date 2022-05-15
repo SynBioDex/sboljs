@@ -38,8 +38,24 @@ Usage
 
 [Documentation](http://synbiodex.github.io/sboljs)
 
+# Citation
 
+If you use this library in your work, please cite
 
+    @article{sboljs,
+      author = {McLaughlin, James Alastair and Myers, Chris J. and Zundel, Zach and Wilkinson, Nathan and Atallah, Christian and Wipat, Anil},
+      title = {sboljs: Bringing the Synthetic Biology Open Language to the Web Browser},
+      journal = {ACS Synthetic Biology},
+      volume = {8},
+      number = {1},
+      pages = {191-193},
+      year = {2019},
+      doi = {10.1021/acssynbio.8b00338},
+      URL = { https://doi.org/10.1021/acssynbio.8b00338 },
+      eprint = {  https://doi.org/10.1021/acssynbio.8b00338 }
+    }
+    
+    
 
 
 
