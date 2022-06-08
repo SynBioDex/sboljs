@@ -11,6 +11,10 @@
     "test": "cd test && bash script.sh",
     "build": "webpack --mode=production"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SynBioDex/sboljs.git"
+  },
   "author": "James Alastair McLaughlin <j.a.mclaughlin@ncl.ac.uk>",
   "license": "BSD-2-Clause",
   "dependencies": {
